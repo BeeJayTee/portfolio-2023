@@ -3,9 +3,9 @@ const Navbar = ({ activeTab, setActiveTab }) => {
     setActiveTab(e.target.value);
   };
   return (
-    <div className="navbar">
+    <div className="navbar flex justify-center">
       <nav>
-        <div className="tabs">
+        <div className="tabs flex flex-col items-center gap-y-4 md:flex-row md:gap-x-8">
           <button
             value="1"
             onClick={handleClick}
