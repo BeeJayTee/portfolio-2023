@@ -9,20 +9,16 @@ const About = () => {
   return (
     <div className="about flex gap-x-12">
       <div className="text-xl md:text-lg basis-1/2">
-        <h2 className="mb-4 md:border-l-8 md:pl-8 md:border-base-100 text-xl font-bold text-primary-content">
+        <h2 className="mb-4 md:border-l-8 md:pl-8 md:border-transparent text-xl font-bold text-primary-content">
           Quick Bio
         </h2>
         <p className="mb-4 md:border-l-8 md:pl-8 md:border-primary">
-          I am a full-stack developer with a background in culinary arts. As a
-          chef, my passion was wellness and sustainability. I knew that the
-          tastiest and healthiest food came directly from local farmers and
-          producers. Though I am no longer working in restaurants, I continue my
-          journey to create a more sustainable culinary ecosystem as a software
-          developer.
-        </p>
-        <p className="md:border-l-8 md:pl-8 md:border-primary">
-          My chef-like work ethic combined with my desire for change are what
-          drives me while creating useful, modern applications.
+          I am a full-stack developer with a background in culinary arts and UX
+          Design. As a chef, my passion was wellness and sustainability. As a
+          designer, my focus was usability. I've learned to combine these
+          concepts while building web and mobile applications. My goals is to
+          build products that allow people to better interact with the world
+          around them and do so in an efficient way.
         </p>
       </div>
       <div className="basis-1/2 flex flex-col items-left">
