@@ -8,10 +8,12 @@ const CurrentProject = () => {
   return (
     <div className="current-project">
       <div className=" flex flex-col lg:flex-row justify-between">
-        <div className="text-center lg:text-left lg:w-1/2">
-          <h1 className="text-5xl font-bold">Tote</h1>
-          <h2 className="text-md text-accent mb-8">for farmers markets</h2>
-          <p className="text-md mb-8">
+        <div className="text-center lg:text-left basis-1/2">
+          <div className="md:border-l-8 md:pl-8 md:border-transparent">
+            <h1 className="text-5xl font-bold text-primary-content">Tote</h1>
+            <h2 className="text-md text-accent mb-8">a farmers markets app</h2>
+          </div>
+          <p className="text-md mb-8 md:border-l-8 md:pl-8 md:border-primary">
             Tote is a full-stack CRUD application that providesa pre-ordering
             platform for farmers markets. Producers are able to list their
             products and buyers can browse the products, add them to their cart,
@@ -41,7 +43,7 @@ const CurrentProject = () => {
             ></i>
           </div>
         </div>
-        <div className="flex flex-col justify-center gap-y-8 md:gap-y-12">
+        <div className="flex flex-col justify-center gap-y-8 md:gap-y-12 basic-1/2">
           <button className="btn btn-primary">Check out Tote</button>
           <button className="btn btn-secondary">Watch the demo video</button>
         </div>
