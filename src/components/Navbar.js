@@ -22,7 +22,7 @@ const Navbar = ({ activeTab, setActiveTab }) => {
               activeTab === "2" ? "tab-active" : ""
             }`}
           >
-            Current Project
+            In Production
           </button>
           <button
             value="3"
